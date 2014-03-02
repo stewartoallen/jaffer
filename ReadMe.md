@@ -1,16 +1,10 @@
-------------------------------------------------------
-
-Home Page
-
-http://giantlaser.com/jaffer/
-
-------------------------------------------------------
-
 Jaffer
+======
 
 A Java implementation of Appletalk File Protocol v3.1 using TCP Transport
 
-Disclaimer:
+Disclaimer
+==========
 
  This software is largely untested. It's barely alpha quality. Because
  OS X's AFP/TCP client appears to be full of code that does little or no
@@ -20,7 +14,7 @@ Disclaimer:
  YOU HAVE BEEN WARNED.
 
 
-Reference documents:
+Reference documents (these appear to have been removed):
 
  Appletalk 3.1 Reference
  http://developer.apple.com/techpubs/macosx/Networking/AFP/AFP.pdf
@@ -29,7 +23,8 @@ Reference documents:
  http://developer.apple.com/techpubs/macos8/pdf/ASAppleTalkFiling2.1_2.2.pdf
 
 
-Quick start:
+Quick start
+===========
 
  This program will act like a native Appletalk file server. You must run it
  as root to use Appletalk's normal port 548. But it's just as happy running
@@ -61,7 +56,8 @@ Quick start:
  The '[user]:[pass]@' part is optional.
 
 
-Developers:
+Developers
+==========
 
  Most of your work will most likely be done in the AFP_Session class
  implementing additional AFP calls. When you do this, please be mindful
@@ -79,7 +75,8 @@ Developers:
  in order to use shadow passwords on Linux, the server *must* run as root.
 
 
-Licenses:
+Licenses
+========
 
  The Java AFP code is covered under the terms of the 'License' file found
  in this directory. Included in the source tree you will also find a copy
@@ -88,7 +85,8 @@ Licenses:
  in the Java Rendezvous source tree.
 
 
-Contact:
+Contact
+=======
 
  Please contact me <stewart@neuron.com> with any questions, comments or bugs.
 
