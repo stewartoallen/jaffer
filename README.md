@@ -32,26 +32,21 @@ Quick start
 
  Your client must be a Mac OS X 10.1 or newer system.
 
- Get the source:
-
-   cvs -d :pserver:anonymous@neuron.com:/home/cvs login  (no password)
-   cvs -d :pserver:anonymous@neuron.com:/home/cvs co jaffer
-
  Build the jar:
 
-   make all
+   ``make all``
 
  Run the server (sample config in doc directory):
 
-   java -jar jaffer.jar -config [config-file]
+   ``java -jar jaffer.jar -config [config-file]``
 
  or, alternatively, for quick testing:
 
-   java -jar jaffer.jar -server [port] [volume-name] [path-to-export]
+   ``java -jar jaffer.jar -server [port] [volume-name] [path-to-export]``
 
  From the OS X Client, mount the new volume:
 
-   mount_afp afp://[user]:[pass]@[host]:[port]/[volume-name] [mount-point]
+   ``mount_afp afp://[user]:[pass]@[host]:[port]/[volume-name] [mount-point]``
 
  The '[user]:[pass]@' part is optional.
 
